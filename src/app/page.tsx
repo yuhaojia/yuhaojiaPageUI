@@ -204,7 +204,7 @@ const askMeAbout = [
 const funFacts = [
   "Finding motivation for the next workout",
   "Browsing 99 Ranch or Costco for cooking ideas",
-  "Debugging something at 2 AM just because",
+  "Debugging something at 2 AM - just because I can and I want to!",
 ];
 
 function StatusBadge({ status }: { status: ServiceStatus }) {

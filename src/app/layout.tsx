@@ -2,8 +2,13 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Status | Platform Health",
-  description: "Live view of platform uptime, incidents, and scheduled maintenance.",
+  title: "Haojia Yu",
+  description: "Personal Status Page",
+  icons: {
+    icon: "/personal-icon.svg",
+    shortcut: "/personal-icon.svg",
+    apple: "/personal-icon.svg",
+  },
 };
 
 export default function RootLayout({
